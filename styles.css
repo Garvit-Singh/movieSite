@@ -1,0 +1,45 @@
+body{
+  background: url('./image/people-on-street-during-night-time-3644048.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.navbar{
+  opacity: 0.9;
+}
+#home-section{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#information-section{
+  background-color: rgba(0,0, 0, 0.7);
+}
+#default-section .card{
+  background-color: rgba(0,0, 0, 0.9);
+}
+#search-section .card{
+  background-color: rgba(0,0, 0, 0.9);
+}
+#movie-section .card{
+  background-color: rgba(0,0, 0, 0.9);
+  height: 277px;
+}
+#movie-section .card p{
+  height: auto;
+}
+#movie-section .card .card-text{
+  max-height: 110px;
+}
+#movie-section .card img{
+  width: 100%;
+  height: 275px;
+}
+.card img {
+  width: 100%;
+  height: 175px;
+}
+.card p {
+  font-size: 12px;
+  height: 16px;
+}

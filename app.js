@@ -157,7 +157,7 @@ const newCard = (image,title,imdbID,destination) => {
     cardBody.setAttribute('class','card-body m-0 p-0')
 // card title
     const cardTitle = document.createElement('p')
-    cardTitle.setAttribute('class','card-title p-0 m-0 overflow-hidden p-2')
+    cardTitle.setAttribute('class','card-title text-warning p-0 m-0 overflow-hidden p-2')
     const titleStrong = document.createElement('strong')
     titleStrong.innerHTML = data.title
     cardTitle.appendChild(titleStrong)

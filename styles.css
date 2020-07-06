@@ -1,6 +1,7 @@
 body{
-  background: url('./image/people-on-street-during-night-time-3644048.jpg');
+  background-image: url('./image/people-on-street-during-night-time-3644048.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
 }
